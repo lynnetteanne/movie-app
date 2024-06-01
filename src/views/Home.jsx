@@ -7,8 +7,11 @@ function Home() {
   return (
     <>
         <Slider />
-        <Popular />
-        <Top />
+        <div className="movies-container">
+          <Popular />
+          <Top />
+        </div>
+        
     </>
   )
 }
