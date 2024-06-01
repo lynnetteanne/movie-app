@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import  upcoming from "../../temp/upcoming";
-import { Ratings } from "../Ratings/Ratings";
+import  {upcoming} from "../../temp/upcoming";
+import Ratings from "../Ratings/Ratings";
 import "./Slider.css";  
 
 
